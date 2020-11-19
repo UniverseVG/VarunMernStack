@@ -1,0 +1,13 @@
+body {
+    background-color: lightslategray;
+}
+
+header {
+    background-color: salmon;
+    color: chartreuse;
+}
+
+section {
+    background-color: blanchedalmond;
+    color: darkblue;
+}
