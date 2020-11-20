@@ -2,12 +2,90 @@ body {
     background-color: lightslategray;
 }
 
-header {
+
+/*Specificity*
+id:100
+class:10
+tag:1
+*/
+
+
+/*
+#header {
     background-color: salmon;
     color: chartreuse;
 }
 
-section {
+#sections {
     background-color: blanchedalmond;
     color: darkblue;
+}
+
+.para-1 {
+    font-weight: bold;
+    font-size: large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 2px;
+}
+
+a {
+    text-decoration: none;
+    color: red;
+} */
+
+p {
+    color: red;
+}
+
+header {
+    color: green;
+}
+
+.box {
+    margin-left: 40px;
+    border: 2px dashed black;
+    padding: 5px;
+    width: 400px;
+    height: 400px;
+    overflow: scroll;
+    display: inline-block;
+}
+
+.box1 {
+    margin-left: 80px;
+    border: 2px dashed black;
+    padding: 5px;
+    width: 400px;
+    height: 400px;
+    overflow: scroll;
+    display: inline-block;
+}
+
+.box2 {
+    margin-left: 80px;
+    border: 2px dashed black;
+    padding: 5px;
+    width: 400px;
+    height: 400px;
+    overflow: scroll;
+    display: inline-block;
+}
+
+.box h1 {
+    padding-left: 140px;
+}
+
+.box1 h1 {
+    padding-left: 140px;
+}
+
+.box2 h1 {
+    padding-left: 140px;
+}
+
+.box h1:hover,
+.box2 h1:hover,
+.box1 h1:hover {
+    color: orange;
+    Text-decoration: underline;
 }
