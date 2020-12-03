@@ -1,0 +1,12 @@
+//import stuffs from './Provider.js';
+
+
+var stuffs = require('./Provider');
+
+console.log(stuffs);
+
+let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 0]
+
+console.log(stuffs.counter(arr));
+
+console.log(stuffs.addition(arr[7], arr[4]));

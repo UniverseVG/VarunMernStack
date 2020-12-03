@@ -40,4 +40,4 @@ let personOne = {
 // Method chaining
 // person.login().updateLogin().updateLogin().logout();
 // // .logout();
-// console.log(person.count);
+// console.log(person.count);cd
