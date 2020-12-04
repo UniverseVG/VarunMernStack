@@ -3,7 +3,9 @@ var http = require('http');
 
 let server = http.createServer((req, res) => {
 
-    res.end("Hello");
+
+    res.writeHead(404, { 'Content-Type': 'text/html' });
+    res.end("<h1>Hello from the otherside!!</h1>");
 })
 
 server.listen(5500, '127.0.0.1', () => {
