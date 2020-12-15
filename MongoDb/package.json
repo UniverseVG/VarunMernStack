@@ -4,12 +4,16 @@
     "description": "mongodb",
     "main": "index.js",
     "scripts": {
-        "test": "mocha --timeout 10000"
+        "test": "mocha --timeout 1000000",
+        "start": "node server.js"
     },
     "author": "",
     "license": "ISC",
     "dependencies": {
         "mocha": "^8.2.1",
         "mongoose": "^5.11.7"
+    },
+    "directories": {
+        "test": "test"
     }
 }
